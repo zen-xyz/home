@@ -4,7 +4,7 @@
 
     <title>~/Zen/acp</title>
 
-    <link href="themes/prism.css" rel="stylesheet" />
+   
     <link rel="stylesheet" type="text/css" href="neat.css">
     <link rel="stylesheet" type="text/css" href="custom.css">
     <link id='favicon' rel="shortcut icon" href="favicon.png" type="image/x-png">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <script src="prism.js"></script>
+    
 
     <a class="home" href="index.html">↖</a>
 
@@ -36,22 +36,8 @@
     <h4 id="min_notes">./Beecrowd(1021 - Banknotes and Coins)</h4>
 
     <p>Beecrowd(1021 - Banknotes and Coins) Solution:</p>
-    <pre><code class="language-python">
-def min_note(amount:float, notes_list:list, notes_type:str):
-    print(notes_type.upper()+"S:")
-    for note in notes_list:
-        print(f"{int(amount/note)} {notes_type}(s) de R$ {note:.2f}")
-        amount = round(amount%note, 2)
-    return amount
-
-value = float(input())
-notes = [100, 50, 20, 10, 5, 2]
-coins = [1, 0.50, 0.25, 0.10, 0.05, 0.01]
-value = min_note(value, notes, "nota")
-min_note(value, coins, "moeda")
-
-
-    </code></pre>
+    <script src="https://gist.github.com/zen-xyz/ecc3db79ddce4db3a9e7b3e52a8b0b5d.js"></script>
+ 
 
 
 
